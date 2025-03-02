@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FastToto"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Search Button -->
+    <Button
+        android:id="@+id/btn_search_toto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Toto Nearby"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Register as Toto Owner -->
+    <Button
+        android:id="@+id/btn_register_owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register as Toto Owner"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="18sp"/>
+
+</LinearLayout>
